@@ -1,1 +1,92 @@
 /*Schrijf hier jouw CSS*/
+
+* {
+    padding: 0;
+    Margin: 0;
+    box-sizing: border-box;
+}
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 li {
+    display: flex;
+    flex: 1 1;
+}
+
+
+.opdracht-3 ul {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bottomright {
+    display: flex;
+    align-self: flex-end;
+}
+
+.topleft {
+    display: flex;
+    align-self: flex-start;
+}
+
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-basis: 800px;
+}
+
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 30px;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: space-evenly;
+
+}
+
+.columneen {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.columntwee {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columndrie {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
