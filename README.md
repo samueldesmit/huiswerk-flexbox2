@@ -98,7 +98,7 @@ Vind je het lastig om te beginnen? Volg dan het stappenplan.
   wanneer ze niet meer passen. Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-wrap)
   eens!
 - [ ] Zorg ervoor dat alle elementen in de container 10 pixels van elkaar af staan. Tip:
-  spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-gap-row-gap-column-gap) eens!
+  spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens!
 
 #### Deelopdracht 5:
 

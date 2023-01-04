@@ -1,1 +1,67 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: auto;
+    min-height: 100vh;
+    height: 100%;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 2;
+}
+
+nav {
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    order: 1;
+}
+
+aside {
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    order: 3;
+}
+
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
